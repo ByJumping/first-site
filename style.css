@@ -14,7 +14,7 @@ body {
 }
 
 .top {
-  height: 768px;
+  min-height: 768px;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(8.84%, #EBF3FB), color-stop(31.12%, rgba(152, 195, 232, 0)));
   background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
@@ -482,6 +482,11 @@ body {
     padding-left: 32px;
     padding-right: 32px;
   }
+
+  .top_box {
+    min-height: 768px;
+  }
+
   .main {
     background-position: right 280px;
     background-size: 44%;
@@ -567,6 +572,11 @@ body {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
+
+  .top_box {
+    min-height: 376px;
+  }
+
   .navigation {
     padding-top: 24px;
   }
